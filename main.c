@@ -3,17 +3,29 @@
 
 #include<stdio.h>
 #include<conio.h>
+#include <stdlib.h>
 
 #define maxTaskName 25
 #define maxTaskDescription 500
 
+//Functions
+void addNewTask;
+void showActiveTask;
+void modifyTask;
+void deleteTask;
+void showCompleteTask;
+
 int main ()
 {
-    int counter, day, month, year;
+    int n, option, counter, day, month, year;
     char taskName[maxTaskName], taskDescription[maxTaskDescription];
 
 
     printf("Hello, I'm Task Zen!\n\n");
+
+    do {
+
+    } while
 
     //function
     //function
