@@ -1,0 +1,21 @@
+Main goal: 
+
+App that may be useful to the users to keep track of their day-to-day tasks.
+
+App sections:
+	1. Add new task
+	2. Show active tasks -- Marked as completed
+	3. Modify task
+	4. Delete task -- active or completed
+	5. Show completed tasks
+	6. Exit
+	
+Task characteristics
+	1. Task name
+	2. Date DD/MM/YYYY
+	3. Task Description
+	
+	
+Targets: 
+	1. Saved the app progress and don´t delete it
+	2. Autoorder chronologically
