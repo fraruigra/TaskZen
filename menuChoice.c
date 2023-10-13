@@ -1,5 +1,5 @@
-void menuChoice {
-    do {
+void menuChoice (void) {
+   /* do {
         printf("Main Menu\n\n");
         printf("1. Add new Task\n");
         printf("2. Show Active Tasks\n"):
@@ -29,5 +29,5 @@ void menuChoice {
     printf("Thank you! See you soon!"):
 
 	getch();
-	return 0;
+	return 0; */
     }

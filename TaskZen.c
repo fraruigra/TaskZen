@@ -9,11 +9,18 @@
 #define maxTaskDescription 500
 
 //Functions
-void addNewTask(void);
+#include "addNewTask.c"
+#include "showActiveTask.c"
+#include "modifyTask.c"
+#include "deleteTask.c"
+#include "showCompleteTask.c"
+//void addNewTask(void);
+/*
 void showActiveTask(void);
 void modifyTask(void);
 void deleteTask(void);
 void showCompleteTask(void);
+*/
 
 int main() {
     printf("Hello, I'm Task Zen!\n\n");
@@ -31,10 +38,10 @@ int main() {
 
         switch (choice) {
             case 1:
-                addNewTask();
+               addNewTask();
                 break;
             case 2:
-                showActiveTask();
+               showActiveTask();
                 break;
             case 3:
                 modifyTask();
